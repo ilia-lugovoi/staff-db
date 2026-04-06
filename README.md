@@ -1,7 +1,7 @@
 # Staff Database: HR & Financial Analytics
 
 ### Цели проекта:
-Создание системы учета персонала и финансовой аналитики выплат.
+Создание системы учета персонала и HR-аналитики выплат.
 
 ### Основные используемые технологии:
 SQL Server, CTE, Window Functions (LAG, NTILE, DENSE_RANK), Triggers, Views.
