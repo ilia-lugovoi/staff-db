@@ -22,6 +22,9 @@ SQL Server, CTE, Window Functions (LAG, NTILE, DENSE_RANK), Triggers, Views.
 
 Представление View_Employees_Analytical_Core - денормализует данные по сотрудникам
 
+**Диаграмма базы данных Staff_DB**
+<img width="1016" height="740" alt="image" src="screens/диаграмма_бд.png/" />
+
 ### Аналитические отчеты:
 * "CashFlow аналитика ЗП по отделам (Q2 vs Q1)" - оценка реальных затрат компании на ЗП сотрудникам
 * "Аналитика оттока персонала (Churn Rate) по отделам" -  оценка стабильности команд и выявление проблемных зон.
@@ -31,12 +34,9 @@ SQL Server, CTE, Window Functions (LAG, NTILE, DENSE_RANK), Triggers, Views.
 Реализованы две модели учета — Кассовый метод (Cash Flow) и Метод начисления со сдвигом периода выплат для корректного анализа индексации зарплат.
 Особое внимание уделено анализу индексации заработных плат (март 2026), результаты которой наглядно прослеживаются в разнице между кассовым и управленческим отчетами.
 
+**Вывод аналитических отчетов**
+<img width="1226" height="785" alt="image" src="screens/аналитические_отчеты.png" />
+
 ### Как запустить:
 1) Создать базу данных MS SQL через запуск кода (нажать F5, для SSMS) в файле Create_Staff_DB.sql
 2) Запустить скрипт на нужный отчет в файле Analyst_Staff_DB.sql
-
-### Вывод аналитических отчетов
-<img width="1226" height="785" alt="image" src="https://github.com/user-attachments/assets/f7db28eb-2f77-40a2-bc12-e4395ab7583f" />
-
-### Диаграмма базы данных Staff_DB
-<img width="1016" height="740" alt="image" src="https://github.com/user-attachments/assets/2d3bb485-cb6f-4cb7-a283-6ea221767604" />
