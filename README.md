@@ -20,7 +20,7 @@ SQL Server, CTE, Window Functions (LAG, NTILE, DENSE_RANK), Triggers, Views.
 * BonusTypes - справочник типов бонусов
 * DismissalReasons - справочник с причинами увольнения
 
-Представление View_Employees_Analytical_Core - денормализует данные по сотрудникам
+**Представление View_Employees_Analytical_Core** - денормализует данные по сотрудникам
 
 #### Диаграмма базы данных Staff_DB
 <img width="1016" height="740" alt="image" src="screens/диаграмма_бд.png/" />
